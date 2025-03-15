@@ -1,0 +1,7 @@
+# Ignore Docker-related files
+node_modules/
+.dockerignore
+docker-compose.yml
+
+# Ignore Docker container logs
+*.log
