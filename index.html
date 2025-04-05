@@ -1,26 +1,50 @@
-# index.html
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Calculator</title>
-  <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Scientific Calculator</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
-
 <body>
   <div class="calculator">
-    <input type="text" id="display" disabled>
+    <input type="text" id="display" readonly />
     <div class="buttons">
-      <button>7</button><button>8</button><button>9</button><button>/</button>
-      <button>4</button><button>5</button><button>6</button><button>*</button>
-      <button>1</button><button>2</button><button>3</button><button>-</button>
-      <button>0</button><button>.</button><button>=</button><button>+</button>
+      <!-- Scientific Buttons -->
+      <button>sin</button>
+      <button>cos</button>
+      <button>tan</button>
+      <button>log</button>
+      <button>ln</button>
+      <button>√</button>
+      <button>π</button>
+      <button>e</button>
+      <button>(</button>
+      <button>)</button>
+
+      <!-- Basic Calculator Buttons -->
+      <button>7</button>
+      <button>8</button>
+      <button>9</button>
+      <button>/</button>
+      <button>DEL</button>
+      <button>4</button>
+      <button>5</button>
+      <button>6</button>
+      <button>*</button>
       <button>C</button>
+      <button>1</button>
+      <button>2</button>
+      <button>3</button>
+      <button>-</button>
+      <button>^</button>
+      <button>0</button>
+      <button>.</button>
+      <button class="wide">=</button>
+      <button>+</button>
     </div>
   </div>
+
   <script src="script.js"></script>
 </body>
-
 </html>
